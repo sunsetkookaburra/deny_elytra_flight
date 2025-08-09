@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "equipped_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": ["minecraft:elytra"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "deny_elytra_flight:on_equipped_elytra"
+  }
+}

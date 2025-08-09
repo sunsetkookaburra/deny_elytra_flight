@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "No elytra flying. Any elytra will have their glider component unset once equipped.",
+    "pack_format": 81,
+    "supported_formats": {
+      "min_inclusive": 57,
+      "max_inclusive": 81
+    }
+  }
+}
