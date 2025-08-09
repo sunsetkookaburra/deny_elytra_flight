@@ -2,6 +2,14 @@
 
 A tiny Minecraft datapack. Any elytra will have their glider component unset once equipped.
 
+## Restoring Elytra
+
+Run the following command once you've disabled the datapack to restore all elytra currently worn back to Vanilla behaviour:
+
+```mcfunction
+/item modify entity @a[nbt={equipment:{chest:{id:"minecraft:elytra"}}}] armor.chest {function: "minecraft:set_components", components: {"minecraft:glider": {}}}
+```
+
 ## License
 
 [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
