@@ -1,6 +1,8 @@
 # Deny Elytra Flight
 
-A tiny Minecraft datapack. Any elytra will have their glider component unset once equipped.
+A tiny Minecraft datapack. No flying with elytra: unsets the glider data component once equipped.
+
+With the new 1.21.2 glider data component, disabling elytra is able to be done cleanly with commands. This tiny datapack is optimised for performance by using a hidden advancement to only modify elytra upon being equipped, instead of checking every tick.
 
 ## Restoring Elytra
 
